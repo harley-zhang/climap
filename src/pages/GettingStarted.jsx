@@ -35,27 +35,13 @@ const GettingStarted = () => {
                     <>
                         {/* LAYER OPTIONS */}
                         <h1 className="text-3xl xs:text-4xl sm:text-5xl mt-24 xs:mt-28 sm:mt-32 font-product-sans-regular text-center">Layer options</h1>
-                        {/* Plant functional type */}
-                        <div className="flex items-center mb-24 mt-12 h-0 pb-[50%] md:h-[544px] relative">
-                            <div className="absolute inset-0 flex w-full h-full">
-                                <div className="w-1/2 bg-light-grey p-[5vw] md:p-16 rounded-l-lg h-full flex flex-col justify-center">
-                                    <h3 className="text-base md:text-xl font-product-sans-regular mb-4 md:mb-8 text-grey">Plant functional type</h3>
-                                    <p className="text-base md:text-xl tracking-wide font-product-sans-light-regular mb-4 md:mb-8">
-                                        Use the checkbox to choose from big sagebrush, perennial C3 grasses, perennial C4 grasses, perennial grasses, annual C3 grasses, and forbs. Check all relevant species.
-                                    </p>
-                                </div>
-                                <div className="w-1/2 overflow-hidden">
-                                    <img src={PlantFunctional} alt="Plant functional type" className="w-full h-full object-cover rounded-r-lg" />
-                                </div>
-                            </div>
-                        </div>
                         {/* Time period and scenario */}
                         <div className="flex items-center my-24 h-0 pb-[50%] md:h-[544px] relative">
                             <div className="absolute inset-0 flex w-full h-full">
                                 <div className="w-1/2 bg-light-grey p-[5vw] md:p-16 rounded-l-lg h-full flex flex-col justify-center">
                                     <h3 className="text-base md:text-xl font-product-sans-regular mb-4 md:mb-8 text-grey">Time period and scenario</h3>
                                     <p className="text-base md:text-xl tracking-wide font-product-sans-light-regular mb-4 md:mb-8">
-                                        Choose from three time periods&mdash;current (1981-2010), mid-century (2031-2060), and end-century (2071-2100)&mdash;and two climate change scenarios, RCP4.5 (a less severe trajectory) and RCP8.5 (a more extreme trajectory).
+                                    Choose from big sagebrush, perennial C3 grasses, perennial C4 grasses, perennial grasses, annual C3 grasses, and forbs. Choose from current (1981-2010), mid-century (2031-2060), and end-century (2071-2100) time periods and two climate change scenarios: RCP4.5 (less severe) and RCP8.5 (more extreme). Then specify if the area encounters grazing or wildfires.
                                     </p>
                                     <div className="flex text-sm font-product-sans-light-regular tracking-wide">
                                         <a
@@ -71,20 +57,6 @@ const GettingStarted = () => {
                                 </div>
                                 <div className="w-1/2 overflow-hidden">
                                     <img src={TimePeriod} alt="Time period and scenario" className="w-full h-full object-cover rounded-r-lg" />
-                                </div>
-                            </div>
-                        </div>
-                        {/* Grazing and wildfire */}
-                        <div className="flex items-center mt-24 mb-12 h-0 pb-[50%] md:h-[544px] relative">
-                            <div className="absolute inset-0 flex w-full h-full">
-                                <div className="w-1/2 bg-light-grey p-[5vw] md:p-16 rounded-l-lg h-full flex flex-col justify-center">
-                                    <h3 className="text-base md:text-xl font-product-sans-regular mb-4 md:mb-8 text-grey">Grazing and wildfire</h3>
-                                    <p className="text-base md:text-xl tracking-wide font-product-sans-light-regular mb-4 md:mb-8">
-                                        CliMap can simulate various grazing levels and incorporate wildfire scenarios. Providing inputs based on specific grazing conditions or wildfire susceptibility in your area of interest.
-                                    </p>
-                                </div>
-                                <div className="w-1/2 overflow-hidden">
-                                    <img src={GrazingWildfire} alt="Grazing and wildfire" className="w-full h-full object-cover rounded-r-lg" />
                                 </div>
                             </div>
                         </div>
